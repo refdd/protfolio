@@ -14,21 +14,21 @@ function About() {
           <p className="py-2 text-gray-600 ">
            I am Not Your Normal Developre
           </p>
-          <p className="py-2 text-2xl text-gray-600 ">
+          <p className="py-2 md:text-2xl text-gray-600 ">
             I've spent the last years working as a lifeguard. I've always had a
             talent Technology and working with computers. In 2019 I started
             working Use HTML and CSS to make some minor tweaks to a small
             business The website I was running. What I thought were just a few
             little things Modifications turned into a love of programming.
           </p>
-          <p className="py-2 text-2xl text-gray-600 ">
+          <p className="py-2 md:text-2xl  text-gray-600 ">
             Fascinated with how intricate programming can be I was quickly drawn
             to learn more. I started learning javascript and was even more
             enthused with making websites interactive. I then started
             freelancing for e-commerce . I am now spending my time building
             projects with React JS, Firebase, and learning new technologies.
           </p>
-          <p className="py-2 text-2xl text-gray-600 ">
+          <p className="py-2 md:text-2xl text-gray-600 ">
             Coding on ReactJS and dreaming on ReactJs and NextJS . Help
             companies to bulid complex web applications serving 1,000,000 users
             with React and modern technologies.Experience building functional
