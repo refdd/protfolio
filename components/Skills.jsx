@@ -16,7 +16,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/html.png"
+                  src="https://www.svgrepo.com/show/165969/html.svg"
                   width="64"
                   height="64"
                 />
@@ -32,7 +32,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/css.png"
+                  src="https://www.svgrepo.com/show/249755/css.svg"
                   width="64"
                   height="64"
                 />
@@ -48,7 +48,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/javascript.png"
+                  src="https://www.svgrepo.com/show/355081/js.svg"
                   width="64"
                   height="64"
                 />
@@ -64,7 +64,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/react.png"
+                  src="https://www.svgrepo.com/show/349488/react.svg"
                   width="64"
                   height="64"
                 />
@@ -81,7 +81,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/hook.png"
+                  src="https://www.svgrepo.com/show/354546/webhooks.svg"
                   width="64"
                   height="64"
                 />
@@ -97,7 +97,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/nextjs.png"
+                  src="https://www.svgrepo.com/show/369457/nextjs.svg"
                   width="64"
                   height="64"
                 />
@@ -113,7 +113,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/node.png"
+                  src="https://www.svgrepo.com/show/378837/node.svg"
                   width="64"
                   height="64"
                 />
@@ -129,7 +129,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/tailwind.png"
+                  src="https://www.svgrepo.com/show/374118/tailwind.svg"
                   width="64"
                   height="64"
                 />
@@ -145,7 +145,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/firebase.png"
+                  src="https://www.svgrepo.com/show/353735/firebase.svg"
                   width="64"
                   height="64"
                 />
@@ -161,7 +161,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/github1.png"
+                  src="https://www.svgrepo.com/show/355033/github.svg"
                   width="64"
                   height="64"
                 />
@@ -193,7 +193,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/sass.png"
+                  src="https://www.svgrepo.com/show/349502/sass.svg"
                   width="64"
                   height="64"
                 />
@@ -209,7 +209,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/jest.png"
+                  src="https://www.svgrepo.com/show/353930/jest.svg"
                   width="64"
                   height="64"
                 />
@@ -225,7 +225,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/bootstrap.png"
+                  src="https://www.svgrepo.com/show/353498/bootstrap.svg"
                   width="64"
                   height="64"
                 />
@@ -241,13 +241,13 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/seo.jpg"
+                  src="https://www.svgrepo.com/show/187330/browser-seo-and-web.svg"
                   width="64"
                   height="64"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="uppercase">seo</h3>
+                <h3 className="uppercase">seo optimization</h3>
               </div>
             </div>
           </div>
@@ -257,13 +257,13 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="/../public/assets/skills/api.png"
+                  src="https://www.svgrepo.com/show/93871/api.svg"
                   width="64"
                   height="64"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="uppercase">api</h3>
+                <h3 className="uppercase">REST API</h3>
               </div>
             </div>
           </div>

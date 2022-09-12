@@ -4,6 +4,7 @@ import contentImage from "../public/assets/contact1.jpg";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Link from "next/link";
 
 function Content() {
   return (
@@ -36,25 +37,40 @@ function Content() {
                 <p className="uppercase pt-8">Content With Me </p>
                 <div className="flex items-center justify-between py-4 ">
                   <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+                      <Link href={"https://www.linkedin.com/in/mohamed-refat-ab874523a/"}>
                     <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
-                      <FaLinkedinIn />
+                        <a>
+                          <FaLinkedinIn />
+                        </a>
                     </div>
+                      </Link>
+                      <Link href={"https://github.com/refdd"}>
                     <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
-                      <FaGithub />
+                        <a>
+                          <FaGithub />
+                        </a>
                     </div>
+                      </Link>
+                      <Link href={"mailto:titorefat76@gmail.com"}>
                     <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
-                      <AiOutlineMail />
+                        <a>
+                          <AiOutlineMail />
+                        </a>
                     </div>
+                      </Link>
+                      <Link href="tel:+201027561605">
                     <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
-                      <BsFillPersonLinesFill />
+                        <a>
+                          <BsFillPersonLinesFill />
+                        </a>
                     </div>
+                      </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           {/* right */}
-          
         </div>
       </div>
     </div>

@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -24,18 +26,33 @@ function Main() {
             excel as a Front-End Developer.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-          <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
-                           <FaLinkedinIn/>
-                           </div>
-                           <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
-                           <FaGithub/>
-                           </div>
-                           <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
-                           <AiOutlineMail/>
-                           </div>
-                           <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
-                           <BsFillPersonLinesFill/>
-                           </div>
+              <Link href={"https://www.linkedin.com/in/mohamed-refat-ab874523a/"}>
+            <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
+                <a>
+                  <FaLinkedinIn />
+                </a>
+            </div>
+              </Link>
+              <Link href={"https://github.com/refdd"}>
+            <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
+              <a>
+              <FaGithub />
+              </a>
+            </div>
+              </Link>
+             
+              <Link href={"mailto:titorefat76@gmail.com"}>
+            <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
+              <a><AiOutlineMail /></a>
+            </div>
+              </Link>
+              
+              <Link href="tel:+201027561605">
+            <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
+              <a><BsFillPersonLinesFill /></a>
+            </div>
+              </Link>
+              
           </div>
         </div>
       </div>

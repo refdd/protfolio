@@ -259,9 +259,9 @@ export const allProject = [
     ],
   },
   {
-    type: "SpecialDesing",
+    type: "color",
     image: color,
-    title: "SpecialDesing",
+    title: "color",
     consestOf: ["JavaScript", "css", "html5"],
     overview:
       "This project is one of the first projects that I made, I designed the entire website myself,,",
