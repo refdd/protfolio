@@ -12,7 +12,7 @@ function About() {
           </p>{" "}
           <h2 className="py-2">Who I Am </h2>
           <p className="py-2 text-gray-600 ">
-            // I am Not Your Normal Developre
+           I am Not Your Normal Developre
           </p>
           <p className="py-2 text-gray-600 ">
             I've spent the last years working as a lifeguard. I've always had a
