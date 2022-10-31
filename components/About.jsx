@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import aboutImage from '../public/assets/me.jpg'
+import PdfButtom from "./PdfButtom";
 
 function About() {
   return (
@@ -34,8 +35,8 @@ function About() {
             with React and modern technologies.Experience building functional
             and effective platforms,Fluency in Javascript, HTML, and CSS
           </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">
-            Check out some of my latest projects.
+          <p className="py-2  cursor-pointer">
+            <PdfButtom/>
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex  items-center justify-center p-4 hover:scale-105 ease-in duration-300">

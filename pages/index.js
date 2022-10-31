@@ -5,6 +5,7 @@ import Content from '../components/Content'
 import Main from '../components/Main'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
+import PdfButtom from '../components/PdfButtom'
 
 export default function Home() {
   return (
