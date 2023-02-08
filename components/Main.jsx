@@ -42,7 +42,7 @@ function Main() {
               </div>
             </Link>
 
-            <Link href={"mailto:titorefat76@gmail.com"}>
+            <Link href={"mailto:mohamedrefat8434@gmail.com"}>
               <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
                 <a>
                   <AiOutlineMail />
