@@ -10,10 +10,31 @@ import fitclub from "../public/assets/projects/fitclub.png";
 import gym from "../public/assets/projects/gym.png";
 import Dino from "../public/assets/projects/Dino.png";
 import Snake from "../public/assets/projects/Snake.png";
-import  SpecialDesing from "../public/assets/projects/Special-Desing.png";
-import  color from "../public/assets/projects/color.png";
+import SpecialDesing from "../public/assets/projects/Special-Desing.png";
+import color from "../public/assets/projects/color.png";
+import memphis from "../public/assets/projects/memphis.png";
+import nilelCrouse from "../public/assets/projects/nilelCrouse.png";
 
 export const allProject = [
+  {
+    type: "nile_cruisez",
+    image: nilelCrouse,
+    title: "nile cruisez",
+    consestOf: ["Nextjs", "tailwindcss", "php"],
+    overview:
+      "nilecruisez Web site of the world famous In the field of tourism ,This website works using the latest technology, which is Next.js and tailwindcss , This website is characterized by high speed and has been configured for to appear on Google search engines ,I am currently working on this website , Which I made from scratch using the best technology available  ",
+    code: "",
+    demo: "https://www.nilecruisez.com/",
+    technologies: [
+      "Nextjs",
+      "JavaScript",
+      "php",
+      "API",
+      "HOOKS",
+      "useContext",
+      "Ract-Hook-form",
+    ],
+  },
   {
     type: "Netflix",
     image: NetflexImage,
@@ -177,35 +198,23 @@ export const allProject = [
     type: "fitclub",
     image: fitclub,
     title: "FitClub",
-    consestOf: ["reactjs", "tailwindcss",],
+    consestOf: ["reactjs", "tailwindcss"],
     overview:
       "This project is a gym project, I did it all myself, the client wanted a website to display his gym, I used reactjs and tailwindCss to make the style and fully responsive website...",
     code: "https://github.com/refdd/FITGYM-react-",
     demo: "https://gamfit.pages.dev/",
-    technologies: [
-      "react.js",
-      "javascript",
-      "react-scroll",
-      "framer-motion",
-
-    ],
+    technologies: ["react.js", "javascript", "react-scroll", "framer-motion"],
   },
   {
     type: "gym",
     image: gym,
     title: "gym",
-    consestOf: ["purejs", "bootstrap",],
+    consestOf: ["purejs", "bootstrap"],
     overview:
       "This project is a gym project, I did it all myself, the client wanted a website to display his gym, I used javascript and bootstrap to make the style and fully responsive website...",
     code: "https://github.com/refdd/bootstrap4-templet-gym",
     demo: "https://refdd.github.io/bootstrap4-templet-gym/",
-    technologies: [
-      
-      "javascript",
-      "bootstrap",
-      "HTML5",
-
-    ],
+    technologies: ["javascript", "bootstrap", "HTML5"],
   },
   {
     type: "dino",
@@ -216,13 +225,7 @@ export const allProject = [
       "Here dino game, one of the most famous games, I made the whole game myself, I used a little html, CSS but a lot of javaScript, a lot of logic and functionality to make the game logic...",
     code: "https://github.com/refdd/dino-game-",
     demo: "https://jumpdino.netlify.app/",
-    technologies: [
-      
-      "javascript",
-      "css",
-      "HTML5",
-
-    ],
+    technologies: ["javascript", "css", "HTML5"],
   },
   {
     type: "snake",
@@ -233,13 +236,7 @@ export const allProject = [
       "Here snake game, one of the most famous games, I made the whole game myself, I used a little html, CSS but a lot of javaScript, a lot of logic and functionality to make the game logic...",
     code: "https://github.com/refdd/snake-game-",
     demo: "https://magnificent-kringle-e6cdca.netlify.app/",
-    technologies: [
-      
-      "javascript",
-      "css",
-      "HTML5",
-
-    ],
+    technologies: ["javascript", "css", "HTML5"],
   },
   {
     type: "SpecialDesing",
@@ -250,13 +247,7 @@ export const allProject = [
       "This project is one of the first projects that I made, I designed the entire website myself,,",
     code: "https://github.com/refdd/Full-Template",
     demo: "https://refdd.github.io/Full-Template/",
-    technologies: [
-      
-      "javascript",
-      "css",
-      "HTML5",
-
-    ],
+    technologies: ["javascript", "css", "HTML5"],
   },
   {
     type: "color",
@@ -267,12 +258,17 @@ export const allProject = [
       "This project is one of the first projects that I made, I designed the entire website myself,,",
     code: "https://github.com/refdd/color-Template",
     demo: "https://refdd.github.io/color-Template/index.HTML",
-    technologies: [
-      
-      "javascript",
-      "css",
-      "HTML5",
-
-    ],
+    technologies: ["javascript", "css", "HTML5"],
+  },
+  {
+    type: "memphis_tours",
+    image: memphis,
+    title: "memphis tours",
+    consestOf: ["JavaScript", "css", "html5 ", "php ", "bootstrap 5"],
+    overview:
+      "memphis tours He and Bosit trips are among the most famous in the world , I am currently working on this website,It is considered one of the largest companies in the world of tourism, memphis tours as it owns many other projects that also work in tourism, but it targets other places in the world such as Brazil, Italy, America and England. , I work there as a front-end developer to provide the best and most comfortable Ui and Ux to User ",
+    code: "",
+    demo: "https://www.memphistours.com/",
+    technologies: ["JavaScript", "css", "html5 ", "php ", "bootstrap 5"],
   },
 ];

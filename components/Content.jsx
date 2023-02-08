@@ -5,10 +5,11 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
+import { SiCodewars } from "react-icons/si";
 
 function Content() {
   return (
-    <div id="contact" className="w-full lg:h-screen">
+    <div id="contact" className="w-full ">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
@@ -36,35 +37,46 @@ function Content() {
               <div>
                 <p className="uppercase pt-8">Content With Me </p>
                 <div className="flex items-center justify-between py-4 ">
-                  <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-                      <Link href={"https://www.linkedin.com/in/mohamed-refat-ab874523a/"}>
-                    <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
+                  <div className="flex items-center justify-between max-w-[330px] m-auto py-4 gap-2">
+                    <Link
+                      href={
+                        "https://www.linkedin.com/in/mohamed-refat-ab874523a/"
+                      }
+                    >
+                      <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
                         <a>
                           <FaLinkedinIn />
                         </a>
-                    </div>
-                      </Link>
-                      <Link href={"https://github.com/refdd"}>
-                    <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
+                      </div>
+                    </Link>
+                    <Link href={"https://github.com/refdd"}>
+                      <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
                         <a>
                           <FaGithub />
                         </a>
-                    </div>
-                      </Link>
-                      <Link href={"mailto:titorefat76@gmail.com"}>
-                    <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
+                      </div>
+                    </Link>
+                    <Link href={"mailto:titorefat76@gmail.com"}>
+                      <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
                         <a>
                           <AiOutlineMail />
                         </a>
-                    </div>
-                      </Link>
-                      <Link href="tel:+201027561605">
-                    <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
+                      </div>
+                    </Link>
+                    <Link href="tel:+201027561605">
+                      <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
                         <a>
                           <BsFillPersonLinesFill />
                         </a>
-                    </div>
-                      </Link>
+                      </div>
+                    </Link>
+                    <Link href="https://www.codewars.com/users/refdd">
+                      <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in">
+                        <a>
+                          <SiCodewars />
+                        </a>
+                      </div>
+                    </Link>
                   </div>
                 </div>
               </div>

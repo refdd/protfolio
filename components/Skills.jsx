@@ -3,14 +3,13 @@ import React from "react";
 
 function Skills() {
   return (
-    <div id="skills" className=" w-full lg:h-screen p-2">
+    <div id="skills" className=" w-full  p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills
         </p>
         <h2 className="py-4">What I Can Do </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
@@ -74,23 +73,23 @@ function Skills() {
               </div>
             </div>
           </div>
-          
           {/* skill */}
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="https://www.svgrepo.com/show/354546/webhooks.svg"
+                  src="https://www.svgrepo.com/show/439290/react.svg"
                   width="64"
                   height="64"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className=" uppercase">hooks</h3>
+                <h3 className=" capitalize">react native</h3>
               </div>
             </div>
           </div>
+
           {/* skill */}
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -113,6 +112,23 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
+                  src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="uppercase">Typescript</h3>
+              </div>
+            </div>
+          </div>
+
+          {/* skill */}
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  alt="/"
                   src="https://www.svgrepo.com/show/378837/node.svg"
                   width="64"
                   height="64"
@@ -123,6 +139,7 @@ function Skills() {
               </div>
             </div>
           </div>
+
           {/* skill */}
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -161,13 +178,13 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="https://www.svgrepo.com/show/355033/github.svg"
+                  src="https://www.svgrepo.com/show/354381/sqlite.svg"
                   width="64"
                   height="64"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className=" uppercase">github</h3>
+                <h3 className=" uppercase">sqlite</h3>
               </div>
             </div>
           </div>
@@ -177,29 +194,13 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   alt="/"
-                  src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+                  src="https://www.svgrepo.com/show/306657/redux.svg"
                   width="64"
                   height="64"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3  className="uppercase">Typescript</h3>
-              </div>
-            </div>
-          </div>
-          {/* skill */}
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  alt="/"
-                  src="https://www.svgrepo.com/show/349502/sass.svg"
-                  width="64"
-                  height="64"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3  className="uppercase">sass</h3>
+                <h3 className=" capitalize">react redux</h3>
               </div>
             </div>
           </div>
@@ -215,10 +216,44 @@ function Skills() {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3  className="uppercase">jest</h3>
+                <h3 className="uppercase">jest</h3>
               </div>
             </div>
           </div>
+          {/* skill */}
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  alt="/"
+                  src="https://www.svgrepo.com/show/355033/github.svg"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className=" uppercase">github</h3>
+              </div>
+            </div>
+          </div>
+
+          {/* skill */}
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  alt="/"
+                  src="https://www.svgrepo.com/show/349502/sass.svg"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="uppercase">sass</h3>
+              </div>
+            </div>
+          </div>
+
           {/* skill */}
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -231,7 +266,7 @@ function Skills() {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3  className="uppercase">bootstrap</h3>
+                <h3 className="uppercase">bootstrap</h3>
               </div>
             </div>
           </div>
@@ -268,7 +303,22 @@ function Skills() {
             </div>
           </div>
           {/* skill */}
-        
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  alt="/"
+                  src="https://www.svgrepo.com/show/341708/codewars.svg"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="capitalize">problem solving</h3>
+              </div>
+            </div>
+          </div>
+          {/* skill */}
         </div>
       </div>
     </div>
