@@ -19,12 +19,14 @@ function Main() {
           </h1>
           <h1 className=" py-2 text-gray-700">A Front-End Web Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            Creative Front-End Developer offering 3+ years of experience
-            providing high-impact web solutions for diverse industry
-            organizations. Skilled in designing, developing and testing multiple
-            web-based applications incorporating a range of technologies.
-            Aspiring to combine broad background with strong technical skills to
-            excel as a Front-End Developer.
+            Creative Front-End DeveloperI have been working as a web developer
+            for the past two years. In that time, I have gained experience in
+            front-end development. I have also worked on a wide range of
+            projects, from small, simple websites to large, complex ones. My
+            skills include HTML, CSS, JavaScript, React.js, Next.js , React
+            native , Wordpress I am a motivated and hard-working individual who
+            is always looking for new challenges. I am excited to learn and grow
+            as a developer, and I am confident that I can be a valuable.
           </p>
           <div className="flex items-center gap-2 justify-between max-w-[330px] m-auto py-4">
             <Link href={"https://www.linkedin.com/in/mohamed-refat-ab874523a/"}>
