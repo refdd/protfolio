@@ -16,6 +16,7 @@ import SpecialDesing from "../public/assets/projects/Special-Desing.png";
 import color from "../public/assets/projects/color.png";
 import memphis from "../public/assets/projects/memphis.png";
 import nilelCrouse from "../public/assets/projects/nilelCrouse.png";
+import Tourzable from "../public/assets/projects/Tourzable-Saudi-Arabia.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -26,6 +27,13 @@ import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper";
 const projectData = {
   projects: [
+    {
+      id: "137324",
+      title: "Tourzable Saudi Arabia",
+      projectUrl: "/product/Tourzable",
+      backgroundImg: Tourzable,
+      buildBy: "Next.js",
+    },
     {
       id: "137",
       title: "nile cruisez",

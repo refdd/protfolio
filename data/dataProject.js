@@ -14,8 +14,28 @@ import SpecialDesing from "../public/assets/projects/Special-Desing.png";
 import color from "../public/assets/projects/color.png";
 import memphis from "../public/assets/projects/memphis.png";
 import nilelCrouse from "../public/assets/projects/nilelCrouse.png";
+import Tourzable from "../public/assets/projects/Tourzable-Saudi-Arabia.png";
 
 export const allProject = [
+  {
+    type: "Tourzable",
+    image: Tourzable,
+    title: "Tourzable Saudi Arabia.",
+    consestOf: ["Nextjs", "tailwindcss", "material ui ", "php"],
+    overview:
+      "Tourzable Is An Online Travel Marketplace And Inventory Management Solutions. We Are Specialized In ,This website works using the latest technology, which is Next.js and tailwindcss  and material ui, This website is characterized by high speed and has been configured for to appear on Google search engines ,I am currently working on this website , Which I made from scratch using the best technology available  ",
+    code: "",
+    demo: "https://tourzable.vercel.app/",
+    technologies: [
+      "Nextjs",
+      "JavaScript",
+      "i18next",
+      "next-auth",
+      "react-simple-maps",
+      "material ui ",
+      "React-Hook-form",
+    ],
+  },
   {
     type: "nile_cruisez",
     image: nilelCrouse,
