@@ -16,7 +16,14 @@ import SpecialDesing from "../public/assets/projects/Special-Desing.png";
 import color from "../public/assets/projects/color.png";
 import memphis from "../public/assets/projects/memphis.png";
 import nilelCrouse from "../public/assets/projects/nilelCrouse.png";
+import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+
+import { FreeMode, Pagination } from "swiper";
 const projectData = {
   projects: [
     {
@@ -141,16 +148,43 @@ function Projects() {
           Projects
         </p>
         <h2 className="py-4">what I've Bulit</h2>
-        <div className="grid md:grid-cols-3 gap-6 ">
-          {projectData.projects.map((item) => (
-            <ProjectItem
-              backgroundImg={item.backgroundImg}
-              key={item.id}
-              titleProject={item.title}
-              projectUrl={item.projectUrl}
-              buildBy={item.buildBy}
-            />
-          ))}
+
+        <div className="">
+          <Swiper
+            slidesPerView={3}
+            spaceBetween={30}
+            freeMode={true}
+            pagination={{
+              clickable: true,
+            }}
+            breakpoints={{
+              280: {
+                slidesPerView: 1.3,
+                spaceBetween: 10,
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+              },
+            }}
+            modules={[FreeMode, Pagination]}
+            className="mySwiper"
+          >
+            {projectData.projects.map((item) => (
+              <SwiperSlide key={item.id}>
+                <ProjectItem
+                  backgroundImg={item.backgroundImg}
+                  titleProject={item.title}
+                  projectUrl={item.projectUrl}
+                  buildBy={item.buildBy}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </div>

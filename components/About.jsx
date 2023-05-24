@@ -16,27 +16,24 @@ function About() {
             I am Not Your Normal Developre
           </p>
           <p className="py-2 text-xl leading-8 text-gray-600 ">
-            I've spent the last years working as a lifeguard. I've always had a
-            talent Technology and working with computers. In 2019 I started
-            working Use HTML and CSS to make some minor tweaks to a small
-            business The website I was running. What I thought were just a few
-            little things Modifications turned into a love of programming.
+            Over the past three years, I have dedicated myself to refining my
+            skills as a web developer, and I'm thrilled to share with you my
+            recent experiences. Initially, my journey began with making minor
+            adjustments to a small business website using HTML and CSS. However,
+            what initially started as a few modifications quickly blossomed into
+            a deep passion for programming.
           </p>
           <p className="py-2 text-xl leading-8 text-gray-600 ">
-            Fascinated with how intricate programming can be I was quickly drawn
-            to learn more. I started learning javascript and was even more
-            enthused with making websites interactive. I then started
-            freelancing
-          </p>
-          <p className="py-2 text-xl leading-8 text-gray-600 ">
-            I have been working as a web developer for the past two years. In
-            that time, I have gained experience in front-end development. I have
-            also worked on a wide range of projects, from small, simple websites
-            to large, complex ones. My skills include HTML, CSS, JavaScript,
-            React.js, Next.js , React native , Wordpress I am a motivated and
-            hard-working individual who is always looking for new challenges. I
-            am excited to learn and grow as a developer, and I am confident that
-            I can be a valuable.
+            During the past three years, I have actively worked as a web
+            developer, acquiring valuable experience in front-end development.
+            Throughout this time, I have successfully contributed to a diverse
+            range of projects, spanning from small and straightforward websites
+            to large and intricate ones. My skill set encompasses HTML, CSS,
+            JavaScript, React.js, Next.js, React Native, and WordPress. I am an
+            enthusiastic and diligent individual who consistently seeks out new
+            challenges. The prospect of continual learning and growth as a
+            developer excites me, and I am confident in my ability to make a
+            valuable impact.
           </p>
           <div className=" md:pb-16 pb-4  cursor-pointer">
             <PdfButtom />
