@@ -34,13 +34,7 @@ const projectData = {
       backgroundImg: Tourzable,
       buildBy: "Next.js",
     },
-    {
-      id: "137",
-      title: "",
-      projectUrl: "",
-      backgroundImg: "",
-      buildBy: "",
-    },
+
     {
       id: "17",
       title: "memphis tours",
