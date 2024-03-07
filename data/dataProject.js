@@ -37,14 +37,14 @@ export const allProject = [
     ],
   },
   {
-    type: "nile_cruisez",
-    image: nilelCrouse,
-    title: "nile cruisez",
+    // type: "nile_cruisez",
+    // image: nilelCrouse,
+    // title: "nile cruisez",
     consestOf: ["Nextjs", "tailwindcss", "php"],
-    overview:
-      "nilecruisez Web site of the world famous In the field of tourism ,This website works using the latest technology, which is Next.js and tailwindcss , This website is characterized by high speed and has been configured for to appear on Google search engines ,I am currently working on this website , Which I made from scratch using the best technology available  ",
+    // overview:
+    //   "nilecruisez Web site of the world famous In the field of tourism ,This website works using the latest technology, which is Next.js and tailwindcss , This website is characterized by high speed and has been configured for to appear on Google search engines ,I am currently working on this website , Which I made from scratch using the best technology available  ",
     code: "",
-    demo: "https://www.nilecruisez.com/",
+    // demo: "https://www.nilecruisez.com/",
     technologies: [
       "Nextjs",
       "JavaScript",

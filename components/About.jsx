@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import aboutImage from "../public/assets/projects/meto.png";
+import aboutImage from "../public/assets/projects/person1.jpg";
 import PdfButtom from "./PdfButtom";
 
 function About() {

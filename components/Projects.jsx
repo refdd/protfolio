@@ -36,10 +36,10 @@ const projectData = {
     },
     {
       id: "137",
-      title: "nile cruisez",
-      projectUrl: "/product/nile_cruisez",
-      backgroundImg: nilelCrouse,
-      buildBy: "Next.js",
+      title: "",
+      projectUrl: "",
+      backgroundImg: "",
+      buildBy: "",
     },
     {
       id: "17",
